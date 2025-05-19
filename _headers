@@ -1,6 +1,6 @@
-/_nuxt/builds/meta/*
+/corippo-dist/_nuxt/builds/meta/*
   cache-control: public, max-age=31536000, immutable
-/_nuxt/builds/*
+/corippo-dist/_nuxt/builds/*
   cache-control: public, max-age=1, immutable
-/_nuxt/*
+/corippo-dist/_nuxt/*
   cache-control: public, max-age=31536000, immutable
