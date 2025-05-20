@@ -1,0 +1,1 @@
+import{_ as s,c as a,a as o,o as t}from"./BnYGPLAZ.js";const c={},n={class:"map"};function r(d,e){return t(),a("div",n,e[0]||(e[0]=[o("h1",null,"Map",-1)]))}const l=s(c,[["render",r],["__scopeId","data-v-3e49d6db"]]);export{l as default};
