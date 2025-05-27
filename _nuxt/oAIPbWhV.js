@@ -1,4 +1,4 @@
-import{u as g}from"./Dp_cZ6X0.js";const s=`query GetPage($slug: String!) {
+import{u as g}from"./Dix8s6Jv.js";const a=`query GetPage($slug: String!) {
   pages(filters: { slug: { eqi: $slug } }, pagination: { limit: 1 }, status: DRAFT) {
     documentId
     title
@@ -18,11 +18,13 @@ import{u as g}from"./Dp_cZ6X0.js";const s=`query GetPage($slug: String!) {
         ...RichTextFields
       }
       media {
-        url
-        alternativeText
-        caption
-        width
-        height
+        name
+        media {
+          caption
+          name
+          url
+          alternativeText
+        }
       }
     }
   }
@@ -56,4 +58,4 @@ fragment RichTextFields on RichText {
   documentId
   richText
   name
-}`,c=()=>{const{query:i}=g();return{getPageBySlug:async e=>{var t;const n=await i(s,{slug:e});return(t=n==null?void 0:n.pages)==null?void 0:t[0]},getHighlightBlocks:e=>e.blocks.map(n=>n.highlight).filter(n=>n!==void 0)}};export{c as u};
+}`,c=()=>{const{query:i}=g();return{getPageBySlug:async e=>{var t;const n=await i(a,{slug:e});return(t=n==null?void 0:n.pages)==null?void 0:t[0]},getHighlightBlocks:e=>e.blocks.map(n=>n.highlight).filter(n=>n!==void 0)}};export{c as u};
