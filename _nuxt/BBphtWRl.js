@@ -1,4 +1,4 @@
-import{u as g}from"./DGlWJ_eL.js";const a=`query GetPage($slug: String!) {
+import{u as g}from"./C9YaiR5Q.js";const a=`query GetPage($slug: String!) {
   pages(filters: { slug: { eqi: $slug } }, pagination: { limit: 1 }, status: DRAFT) {
     documentId
     title
