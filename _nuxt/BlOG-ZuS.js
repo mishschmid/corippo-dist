@@ -1,0 +1,1 @@
+import{O as o,a5 as e}from"./BqbGx6li.js";o.registerPlugin(e);e.create("on1","0.83, 0.00, 0.17, 1.00");e.create("on2","0.18, 0.83, 0.36, 1.00");e.create("on3","0.23, 1.00, 0.32, 1.00");e.create("on4","0.19, 1.00, 0.22, 1.00");const n={on1:"on1",on3:"on3"};export{n as e};
