@@ -1,1 +1,0 @@
-import{at as n,au as s,av as r,ap as o,aw as u}from"./DBO20tRv.js";function i(a){var t;const e=a||s();return((t=e==null?void 0:e.ssrContext)==null?void 0:t.head)||(e==null?void 0:e.runWithContext(()=>{if(r())return o(u)}))}function d(a,e={}){const t=i(e.nuxt);if(t)return n(a,{head:t,...e})}export{d as u};
